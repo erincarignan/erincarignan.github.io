@@ -9,50 +9,116 @@
 
     <link type="text/css" rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
 
-    <nav class="nav-extended">
-        <div class="nav-wrapper">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a href="/assets/resume.pdf">Resume</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="navbar-fixed">
+        <nav class="nav-extended teal darken-2">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">
+                    <div class="circle">
+                        <span id="text">ec</span>
+                    </div>
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="/assets/resume.pdf">Resume (remove phone from resume!)</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-    <header class="header teal darken-2 z-depth-1">
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="sass.html">Sass</a>
+        </li>
+        <li>
+            <a href="badges.html">Components</a>
+        </li>
+        <li>
+            <a href="collapsible.html">Javascript</a>
+        </li>
+        <li>
+            <a href="mobile.html">Mobile</a>
+        </li>
+    </ul>
+
+    <header class="header grey darken-4 z-depth-1">
+        <!-- <div class="typewriter"> -->
         <h1 class="grey-text text-lighten-5">Hi, I'm Erin Carignan.</h1>
+        <!-- </div> -->
         <h5 class="grey-text text-lighten-1">Full stack software engineer</h5>
     </header>
 
+    <section class="center-align grey">
+        <h2>Teaser</h2>
+        <p>I'm a software developer from Westminster, Massachusetts. I'm passionate about solving real problems for real people.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac volutpat quam. Proin quis lobortis sapien,
+            vitae cursus nulla. Ut elementum, nisl at rutrum tempor, diam lectus imperdiet nisl, non accumsan nunc dolor
+            id enim. Vivamus mattis, orci in pretium condimentum, quam arcu placerat urna, nec convallis purus ante eget
+            orci. Quisque laoreet, orci quis lobortis facilisis, augue nisi viverra libero, vitae molestie nulla augue sed
+            enim. Pellentesque quis laoreet urna. Nulla facilisi. Aliquam erat volutpat. Mauris tristique lorem id massa
+            faucibus ultricies. Morbi vestibulum massa odio, at vehicula arcu tempor ut.
+        </p>
+    </section>
+
+    <section class="center-align blue" id="skills">
+        <div>
+            <h2>Skills</h2>
+            <i class="devicon-angularjs-plain colored"></i>
+        </div>
+    </section>
     <section class="center-align grey" id="work">
         <div>
             <h2>Recent Work</h2>
-            <p>LoremIpsum</p>
+            <h3>Mobile Dashboard</h3>
+            <p>Project description (include backend)</p>
+            <p>Technologies: Angular, Typescript, Ionic, Karma, Jasmine, Git</p>
+            <p>What I learned section?</p>
+
+            <h3>Mobile Dashboard (v1)</h3>
+            <p>Project description</p>
+            <p>Technologies: Xamarin Forms, Prism, TDD, NUnit</p>
+
+            <h3>Sample Setup</h3>
+            <p>project description</p>
+            <p>Technologies: C#, WPF, LINQ, SOA</p>
+
+            <h3>this website?</h3>
         </div>
     </section>
 
     <section class="center-align" id="about">
         <div>
             <h2>About Me</h2>
-            <p>LoremIpsum</p>
+            <p>I write code.</p>
+            <p>Really, this means I build products that solve problems for real people.</p>
+            <p>I have over 15 years of experience engineering solutions that enable customers to focus on their job, and not
+                on the software.
+            </p>
+            <p>These days, I'm focused on front end web development. I'm learning Angular, sharpening my responsive design techniques
+                and investigating mobile-first strategies to bring an increased user-focus to our products.
+            </p>
+            <p>I'm passionate about ...</p>
+            <p>skilled,creative,compentent,dedicated,experienced</p>
         </div>
     </section>
 
